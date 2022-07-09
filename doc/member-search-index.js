@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"gui","c":"Publicaciones","l":"Publicaciones(Usuario)","u":"%3Cinit%3E(dominio.Usuario)"},{"p":"gui","c":"Publicaciones","l":"setDatos()"},{"p":"gui","c":"Publicaciones","l":"setModelo()"},{"p":"gui","c":"Publicaciones","l":"tablas(JScrollPane)","u":"tablas(javax.swing.JScrollPane)"}];updateSearchResults();
