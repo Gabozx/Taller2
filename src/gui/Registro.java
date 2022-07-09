@@ -112,6 +112,7 @@ public class Registro extends JFrame {
 						if(correo.getText().contains("@")) {
 							try {
 								Usuario usuario = App.sistema.registrarUsuario(nombre.getText(), nombreCom.getText(), correo.getText(), Integer.parseInt(contacto.getText()), password, App.listaUsuarios);
+								App.usuario=usuario;
 								App.guardarUsuario("Usuarios.txt", App.listaUsuarios);
 								if(perfil!=null) {
 									perfil.setVisible(true);
